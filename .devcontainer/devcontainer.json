@@ -28,7 +28,13 @@
 			// Set *default* container specific settings.json values on container create.
 			"settings": { 
 				"dotnet.defaultSolution": "/workspaces/${localWorkspaceFolderBasename}/Dionysus.DevContainer.slnf",
-				"dotnet.server.useOmnisharp": true
+				"dotnet.server.useOmnisharp": true,
+				"files.exclude": {
+					"Dionysus.Base/**": true,
+					"Dionysus.Mobile/**": true,
+					"Dionysus.Skia.Gtk/**": true,
+					"Dionysus.Windows/**": true
+				}
 			},
 
 			// Add the IDs of extensions you want installed when the container is created.
