@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo ""
-echo "Welcome to Dionysus dev container."
+echo "Welcome to the Dionysus dev container for WASM."
 echo ""
 echo "On the first run:"
 echo "- Ignore the error that says \"Cannot activate the 'Uno Platform' extension (...)\""
