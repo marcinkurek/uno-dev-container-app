@@ -33,7 +33,8 @@
 					"Dionysus.Base/**": true,
 					"Dionysus.Mobile/**": true,
 					"Dionysus.Skia.Gtk/**": true,
-					"Dionysus.Windows/**": true
+					"Dionysus.Windows/**": true,
+					"Dionysus-vsmac.slnf": true
 				}
 			},
 
