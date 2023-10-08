@@ -1,0 +1,10 @@
+{
+  "background_color": "#ffffff",
+  "description": "Dionysus",
+  "display": "standalone",
+  "name": "Dionysus",
+  "short_name": "Dionysus",
+  "start_url": "/index.html",
+  "theme_color": "#ffffff",
+  "scope": "/"
+}

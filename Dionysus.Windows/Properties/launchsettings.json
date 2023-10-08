@@ -1,0 +1,10 @@
+{
+  "profiles": {
+	"Dionysus.Windows (Package)": {
+	  "commandName": "MsixPackage"
+	},
+	"Dionysus.Windows (Unpackaged)": {
+	  "commandName": "Project"
+	}
+  }
+}
