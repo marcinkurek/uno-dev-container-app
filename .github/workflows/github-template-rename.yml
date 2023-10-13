@@ -1,0 +1,22 @@
+name: GitHub Template Rename
+
+on:
+  workflow_dispatch:
+    inputs:
+      from-name:
+        type: string
+        description: From name
+        default: UnoDevContainerApp
+      to-name:
+        type: string
+        description: To name
+        required: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: kota65535/github-template-rename-action@v1
+      with:
+        from-name: ${{ github.event.inputs.from-name }}
+        to-name: ${{ github.event.inputs.to-name }}
