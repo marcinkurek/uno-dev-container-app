@@ -5,6 +5,7 @@ This repository contains:
 - a Dev Container configuration for WebAssembly development
 
 ## Renaming the project
+
 - Make sure `Allow GitHub Actions to create and approve pull requests` is checked in the repository settings
 - Run the `GitHub Template Rename` action
 - Merge the pull request
