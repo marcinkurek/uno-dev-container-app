@@ -12,6 +12,8 @@ on:
         description: To name
         required: true
 
+permissions: pull-requests
+
 jobs:
   build:
     runs-on: ubuntu-latest
