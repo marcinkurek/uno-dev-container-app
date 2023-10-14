@@ -1,0 +1,16 @@
+{
+  "solution": {
+    "path": "UnoDevContainerApp.sln",
+    "projects": [
+      "UnoDevContainerApp.Tests\\UnoDevContainerApp.Tests.csproj",
+      "UnoDevContainerApp.UITests\\UnoDevContainerApp.UITests.csproj",
+      "UnoDevContainerApp.Mobile\\UnoDevContainerApp.Mobile.csproj",
+      "UnoDevContainerApp.Skia.Gtk\\UnoDevContainerApp.Skia.Gtk.csproj",
+      "UnoDevContainerApp.Wasm\\UnoDevContainerApp.Wasm.csproj",
+      "UnoDevContainerApp.Server\\UnoDevContainerApp.Server.csproj",
+      "UnoDevContainerApp.DataContracts\\UnoDevContainerApp.DataContracts.csproj",
+      "UnoDevContainerApp.Base\\UnoDevContainerApp.Base.csproj",
+      "UnoDevContainerApp\\UnoDevContainerApp.csproj"
+    ]
+  }
+}

@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo ""
-echo "Welcome to the Dionysus dev container for WASM."
+echo "Welcome to the UnoDevContainerApp dev container for WASM."
 echo ""
 echo "On the first run:"
 echo "- Ignore the error that says \"Cannot activate the 'Uno Platform' extension (...)\""
@@ -14,6 +14,6 @@ echo "- Set the port 5000 visibility to \"Public\" - be advised that this enable
 echo "- The browser will not recognize the application as a PWA"
 echo ""
 echo "Useful commands:"
-echo "- build: dotnet build Dionysus.DevContainer.slnf"
-echo "- run:   dotnet run --project Dionysus.Wasm"
+echo "- build: dotnet build UnoDevContainerApp.DevContainer.slnf"
+echo "- run:   dotnet run --project UnoDevContainerApp.Wasm"
 echo ""
