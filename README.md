@@ -22,10 +22,10 @@ Copy `solution-config.props.sample` to `solution-config.props` and uncomment lin
 
 ## Troubleshooting
 
-# `Failed to fetch` error on the splash screen
+### `Failed to fetch` error on the splash screen
 
 When running from a GitHub Codespace, you need to mark the port 5000 as `Public`. Be advised that this enables outside anonymous access.
 
-# OmniSharp errors
+### OmniSharp errors
 
-Run `Restart OmniSharp` from the command palette after the project has been build.
+Run `Restart OmniSharp` from the command palette after the project has been built.
