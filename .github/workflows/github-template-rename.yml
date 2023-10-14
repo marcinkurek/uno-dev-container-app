@@ -12,9 +12,7 @@ on:
         description: To name
         required: true
 
-permissions:
-  contents: write
-  pull-requests: write
+permissions: write-all
 
 jobs:
   build:
