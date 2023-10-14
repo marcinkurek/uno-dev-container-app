@@ -1,0 +1,13 @@
+{
+  "solution": {
+    "path": "UnoDevContainerApp.sln",
+    "projects": [
+      "UnoDevContainerApp.DataContracts\\UnoDevContainerApp.DataContracts.csproj",
+      "UnoDevContainerApp.Server\\UnoDevContainerApp.Server.csproj",
+      "UnoDevContainerApp.Tests\\UnoDevContainerApp.Tests.csproj",
+      "UnoDevContainerApp.UITests\\UnoDevContainerApp.UITests.csproj",
+      "UnoDevContainerApp.Wasm\\UnoDevContainerApp.Wasm.csproj",
+      "UnoDevContainerApp\\UnoDevContainerApp.csproj"
+    ]
+  }
+}

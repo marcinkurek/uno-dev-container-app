@@ -7,7 +7,7 @@
       "type": "process",
       "args": [
         "build",
-        "${workspaceFolder}/Dionysus.Wasm/Dionysus.Wasm.csproj",
+        "${workspaceFolder}/UnoDevContainerApp.Wasm/UnoDevContainerApp.Wasm.csproj",
         "/property:GenerateFullPaths=true",
         "/consoleloggerparameters:NoSummary"
       ],
@@ -19,7 +19,7 @@
       "type": "process",
       "args": [
         "publish",
-        "${workspaceFolder}/Dionysus.Wasm/Dionysus.Wasm.csproj",
+        "${workspaceFolder}/UnoDevContainerApp.Wasm/UnoDevContainerApp.Wasm.csproj",
         "/property:GenerateFullPaths=true",
         "/consoleloggerparameters:NoSummary"
       ],
@@ -31,7 +31,7 @@
       "type": "process",
       "args": [
         "build",
-        "${workspaceFolder}/Dionysus.Skia.Gtk/Dionysus.Skia.Gtk.csproj",
+        "${workspaceFolder}/UnoDevContainerApp.Skia.Gtk/UnoDevContainerApp.Skia.Gtk.csproj",
         "/property:GenerateFullPaths=true",
         "/consoleloggerparameters:NoSummary"
       ],
@@ -43,7 +43,7 @@
       "type": "process",
       "args": [
         "publish",
-        "${workspaceFolder}/Dionysus.Skia.Gtk/Dionysus.Skia.Gtk.csproj",
+        "${workspaceFolder}/UnoDevContainerApp.Skia.Gtk/UnoDevContainerApp.Skia.Gtk.csproj",
         "/property:GenerateFullPaths=true",
         "/consoleloggerparameters:NoSummary"
       ],

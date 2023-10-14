@@ -27,14 +27,14 @@
 		"vscode": {
 			// Set *default* container specific settings.json values on container create.
 			"settings": { 
-				"dotnet.defaultSolution": "/workspaces/${localWorkspaceFolderBasename}/Dionysus.DevContainer.slnf",
+				"dotnet.defaultSolution": "/workspaces/${localWorkspaceFolderBasename}/UnoDevContainerApp.DevContainer.slnf",
 				"dotnet.server.useOmnisharp": true,
 				"files.exclude": {
-					"Dionysus.Base/**": true,
-					"Dionysus.Mobile/**": true,
-					"Dionysus.Skia.Gtk/**": true,
-					"Dionysus.Windows/**": true,
-					"Dionysus.VsMac.slnf": true
+					"UnoDevContainerApp.Base/**": true,
+					"UnoDevContainerApp.Mobile/**": true,
+					"UnoDevContainerApp.Skia.Gtk/**": true,
+					"UnoDevContainerApp.Windows/**": true,
+					"UnoDevContainerApp.VsMac.slnf": true
 				}
 			},
 
