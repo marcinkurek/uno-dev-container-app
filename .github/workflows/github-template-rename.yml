@@ -16,6 +16,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+    - uses: actions/checkout@v4
     - uses: kota65535/github-template-rename-action@v1
       with:
         from-name: ${{ github.event.inputs.from-name }}
