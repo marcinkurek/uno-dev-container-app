@@ -5,8 +5,9 @@ This repository contains:
 - a Dev Container configuration for WebAssembly development
 
 ## Renaming the project
-
-Run the `GitHub Template Rename` action. This creates a pull request that changes the application name in folder names, file names and file contents.
+- Make sure `Allow GitHub Actions to create and approve pull requests` is checked in the repository settings
+- Run the `GitHub Template Rename` action
+- Merge the pull request
 
 ## Dev Container setup
 
