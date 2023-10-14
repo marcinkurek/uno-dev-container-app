@@ -1,4 +1,4 @@
-# uno-devcontainer-app
+# uno-dev-container-app
 
 This repository contains:
 - an Uno Platform Application created with `dotnet new unoapp`
