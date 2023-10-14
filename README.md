@@ -1,13 +1,20 @@
 # uno-devcontainer-app
 
 This repository contains:
-- an Uno Platform application created `dotnet new unoapp`
-- a dev container configuration for web assembly development
+- an Uno Platform Application created with `dotnet new unoapp`
+- a Dev Container configuration for WebAssembly development
 
 ## Renaming the project
 
-Run the `GitHub Template Rename` action. This creates a pull requests that changes the application name in folder names, file names and file contents.
+Run the `GitHub Template Rename` action. This creates a pull request that changes the application name in folder names, file names and file contents.
 
-## Setup
+## Dev Container setup
 
-Spin up the container, wait for `postCreateCommand.sh` and `postAttachCommand.sh` to finish, and carefully follow the instructions that appear.
+Copy `solution-config.props.sample` to `solution-config.props` and uncomment line:
+```xml
+<!-- <OverrideTargetFrameworks Condition="''!='hint: WASM, Skia'">$(OverrideTargetFrameworks);net7.0</OverrideTargetFrameworks> -->
+```
+
+## Useful commands
+- build: `dotnet build UnoDevContainerApp.DevContainer.slnf`
+- run:   `dotnet run --project UnoDevContainerApp.Wasm`
