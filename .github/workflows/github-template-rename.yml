@@ -6,7 +6,7 @@ on:
       from-name:
         type: string
         description: From name
-        default: UnoDevContainerApp
+        required: true
       to-name:
         type: string
         description: To name
@@ -15,7 +15,6 @@ on:
 permissions:
   contents: write
   pull-requests: write
-  workflows: write
 
 jobs:
   build:
